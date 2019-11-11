@@ -1,0 +1,13 @@
+1. Git: https://try.github.io/
+
+2. Git GUI: https://www.gitkraken.com/
+
+3. Docker Podcast: https://www.bretfisher.com/podcast/
+
+4. Useful resource: https://www.bretfisher.com/
+
+5. Compose Overview: https://docs.docker.com/compose/
+
+6. Docker toolbox install: https://github.com/docker/toolbox/releases
+
+7. Docker Docs for Install: https://docs.docker.com/install/#supported-platforms
