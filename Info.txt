@@ -11,3 +11,17 @@
 6. Docker toolbox install: https://github.com/docker/toolbox/releases
 
 7. Docker Docs for Install: https://docs.docker.com/install/#supported-platforms
+
+8. Compose Overview: https://docs.docker.com/compose/
+
+9. Compose not ideal for Production : https://github.com/BretFisher/ama/issues/8
+
+10. Compose file format: https://docs.docker.com/compose/compose-file/
+
+11. Compose file versions and upgrading: https://docs.docker.com/compose/compose-file/compose-versioning/
+
+12. Docker Compose v2 Vs v3: https://github.com/docker/docker.github.io/pull/7593
+
+13. docker-compose CLI : https://docs.docker.com/compose/reference/overview/
+
+14. 

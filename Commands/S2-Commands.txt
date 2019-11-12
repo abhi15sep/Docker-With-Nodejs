@@ -1,0 +1,37 @@
+# Docker Compose Basics
+
+## Assignment Compose CLI Basics
+
+cd sample-02
+
+docker-compose up
+
+ctrl-c
+
+docker-compose down
+
+docker-compose up -d
+
+docker-compose ps
+
+docker-compose logs
+
+docker-compose exec web sh
+
+curl localhost
+
+exit
+
+(edit Dockerfile, and add RUN apk add --update curl)
+
+docker-compose up -d
+
+docker-compose up -d --build
+
+docker-compose exec web sh
+
+curl localhost
+
+exit
+
+docker-compose down
