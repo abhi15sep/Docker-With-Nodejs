@@ -60,3 +60,8 @@ Use the optional flag --chown=<user>:<group> with either the ADD or COPY command
 
 26. Difference between chmod and chown: https://www.unixtutorial.org/difference-between-chmod-and-chown
 
+27. Inject --init into docker : https://docs.docker.com/engine/reference/run/#specify-an-init-process
+
+28. Tini (A tiny but valid `init` for containers): https://github.com/krallin/tini
+
+29. Hapi.js API Framework: https://hapi.dev/
