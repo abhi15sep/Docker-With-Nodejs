@@ -26,4 +26,37 @@
 
 14. Alpine Linux Package: https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management
 
-15. 
+15. Docker file best practice : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+16. NodeJs Release Schedule: https://github.com/nodejs/Release#release-schedule
+
+17. onbuild deprecation: https://github.com/docker-library/official-images/issues/2076
+
+18. official Image on docker hub: https://hub.docker.com/_/node
+
+19. CVE Scanning and Base images: https://kubedex.com/follow-up-container-scanning-comparison/
+
+20. Image Scanning: https://www.youtube.com/watch?v=e2pAkcqYCG8
+
+21. Centos on docker-hub: https://hub.docker.com/_/centos
+
+22. Node on docker-hub: https://hub.docker.com/_/node
+
+23. Dockerfile USER docs: https://docs.docker.com/engine/reference/builder/#user
+
+24. Dockerfile COPY docs: https://docs.docker.com/engine/reference/builder/#copy
+
+25. Notes: 
+Change user from root to node: USER node
+Set permission on app dir : RUN mkdir app && chown -R node:node .
+Run a command as root user in container: docker-compose exec -u root
+RUN, ENTRYPOINT and CMD can be used as node user only.
+Use the optional flag --chown=<user>:<group> with either the ADD or COPY commands:
+    For example: COPY --chown=<user>:<group> <hostPath> <containerPath>
+    COPY --chown=user:user . /home/user/Projects/transpyle
+    In Legacy way:
+    COPY . /home/user/Projects/transpyle
+    RUN sudo chown -R user:user /home/user/Projects/transpyle
+
+26. Difference between chmod and chown: https://www.unixtutorial.org/difference-between-chmod-and-chown
+
