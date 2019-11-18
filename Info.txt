@@ -88,4 +88,21 @@ Use the optional flag --chown=<user>:<group> with either the ADD or COPY command
 
 36. Using SSH to access private data in build: https://docs.docker.com/develop/develop-images/build_enhancements/#using-ssh-to-access-private-data-in-builds
 
-37. 
+37. To find the last container that ran:
+docker ps -l 
+
+38. Compose file V2: https://docs.docker.com/compose/compose-file/compose-versioning/#version-21
+
+39. User-guided caching in Docker for Mac: https://www.docker.com/blog/user-guided-caching-in-docker-for-mac/
+
+40. Docker on mac filesystem sharing: https://docs.docker.com/docker-for-mac/osxfs/
+
+41. Performance tuning for volume mount: https://docs.docker.com/docker-for-mac/osxfs-caching/
+
+42. Background sync tool: https://github.com/cweagans/docker-bg-sync
+
+43. Docker for windows alternate setup: https://www.reddit.com/r/docker/comments/8hp6v7/setting_up_docker_for_windows_and_wsl_to_work/
+
+44. Run command in container:
+    docker-compose run : start a new container and run command shell
+    docker-compose exec : run additional command/shell in currently running container.

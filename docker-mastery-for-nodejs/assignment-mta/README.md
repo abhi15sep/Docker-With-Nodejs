@@ -14,3 +14,9 @@
  `apt-get install -y graphicsmagick`
 
  index.js is the main entrypoint
+
+
+To run:
+docker build -t mta .
+docker run -v $(pwd)/in:/app/in -v $(pwd)/out:/app/out mta
+docker run -v $(pwd)/in:/app/in -v $(pwd)/out:/app/out --env CHARCOAL_FACTOR=10 mta

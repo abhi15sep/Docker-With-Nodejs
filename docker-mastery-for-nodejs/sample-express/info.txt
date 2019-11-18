@@ -1,0 +1,8 @@
+docker-compose run express npm install : Install npm_module in host
+docker-compose up
+
+For Copy files:
+npm install
+docker-compose build
+docker-compose up -d
+docker-compose exec express bash
