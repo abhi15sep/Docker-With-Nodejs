@@ -88,21 +88,48 @@ Use the optional flag --chown=<user>:<group> with either the ADD or COPY command
 
 36. Using SSH to access private data in build: https://docs.docker.com/develop/develop-images/build_enhancements/#using-ssh-to-access-private-data-in-builds
 
-37. To find the last container that ran:
+37. BuildKit 'frontend' including cache: https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md
+
+38. The Twelve Factors: https://12factor.net/. Twelve factor principle is:
+    A) use Environment variable for config.
+    B) Log to Stdout/Stderr
+    C) Pin all versions, even npm
+    D) Graceful exit SIGTERM/INIT 
+    E)Create a .dockerignore (like .gitignore)
+
+39. Twelve factor Config: https://12factor.net/config
+
+40. Advanced Node.js Project Structure Tutorial: https://blog.risingstack.com/node-js-project-structure-tutorial-node-js-at-scale/
+
+41. Using environment variables in nginx configuration: https://docs.docker.com/samples/library/nginx/#using-environment-variables-in-nginx-configuration
+
+42. Templated Nginx configuration with Bash and Docker: https://thepracticalsysadmin.com/templated-nginx-configuration-with-bash-and-docker/
+
+43. Dynamic default.conf of nginx in docker: https://stackoverflow.com/questions/44804974/dynamic-default-conf-of-nginx-in-docker
+
+44. Twelve factor Logs: https://12factor.net/logs
+
+45. Winston logging with the console transport: https://github.com/winstonjs/winston/blob/master/docs/transports.md#console-transport
+
+46. Create useful .gitignore files for your project: https://www.gitignore.io/
+
+47. .dockerignore Examples: https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/
+
+48. To find the last container that ran:
 docker ps -l 
 
-38. Compose file V2: https://docs.docker.com/compose/compose-file/compose-versioning/#version-21
+49. Compose file V2: https://docs.docker.com/compose/compose-file/compose-versioning/#version-21
 
-39. User-guided caching in Docker for Mac: https://www.docker.com/blog/user-guided-caching-in-docker-for-mac/
+50. User-guided caching in Docker for Mac: https://www.docker.com/blog/user-guided-caching-in-docker-for-mac/
 
-40. Docker on mac filesystem sharing: https://docs.docker.com/docker-for-mac/osxfs/
+51. Docker on mac filesystem sharing: https://docs.docker.com/docker-for-mac/osxfs/
 
-41. Performance tuning for volume mount: https://docs.docker.com/docker-for-mac/osxfs-caching/
+52. Performance tuning for volume mount: https://docs.docker.com/docker-for-mac/osxfs-caching/
 
-42. Background sync tool: https://github.com/cweagans/docker-bg-sync
+53. Background sync tool: https://github.com/cweagans/docker-bg-sync
 
-43. Docker for windows alternate setup: https://www.reddit.com/r/docker/comments/8hp6v7/setting_up_docker_for_windows_and_wsl_to_work/
+54. Docker for windows alternate setup: https://www.reddit.com/r/docker/comments/8hp6v7/setting_up_docker_for_windows_and_wsl_to_work/
 
-44. Run command in container:
+55. Run command in container:
     docker-compose run : start a new container and run command shell
     docker-compose exec : run additional command/shell in currently running container.
