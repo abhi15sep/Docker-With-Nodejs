@@ -109,6 +109,10 @@ Use the optional flag --chown=<user>:<group> with either the ADD or COPY command
 
 44. Twelve factor Logs: https://12factor.net/logs
 
-45. Winston logging with the console: https://github.com/winstonjs/winston/blob/master/docs/transports.md#console-transport
+45. Winston logging with the console transport: https://github.com/winstonjs/winston/blob/master/docs/transports.md#console-transport
 
-46. 
+46. Create useful .gitignore files for your project: https://www.gitignore.io/
+
+47. .dockerignore Examples: https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/
+
+48.
