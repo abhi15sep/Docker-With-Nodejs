@@ -163,4 +163,34 @@ docker ps -l
 
 69. ts-node readme: https://github.com/TypeStrong/ts-node
 
-70. 
+70. Dockerfile LABEL info : https://docs.docker.com/engine/reference/builder/#label
+
+71. Docker object labels: https://docs.docker.com/config/labels-custom-metadata/
+
+72. OCI standard LABEL format: https://github.com/opencontainers/image-spec/blob/master/annotations.md
+
+73: Dockerfile ARG info: https://docs.docker.com/engine/reference/builder/#arg
+
+74: Docker-hub option for for Autobuild and Autotest:https://docs.docker.com/docker-hub/builds/advanced/
+
+75: Node Hero - Node.js Unit Testing: https://blog.risingstack.com/node-hero-node-js-unit-testing-tutorial/
+
+76. 10 npm security best pracctice: https://snyk.io/blog/ten-npm-security-best-practices/
+
+77. container scanning: https://kubedex.com/container-scanning/
+
+78. Follow Up: Container Scanning Comparison: https://kubedex.com/follow-up-container-scanning-comparison/
+
+79. Docker image scanning: https://sysdig.com/blog/docker-image-scanning/
+
+80. Docker security tools compared: https://sysdig.com/blog/20-docker-security-tools/
+
+81. How to deal with docker-compose: https://stackoverflow.com/questions/29568352/using-docker-compose-with-ci-how-to-deal-with-exit-codes-and-daemonized-linked
+
+82: hadolint, a Dockerfile linter :https://github.com/hadolint/hadolint
+
+83. An opinionated Dockerfile linter.: https://github.com/replicatedhq/dockerfilelint
+
+84. Automated repository tests: https://docs.docker.com/docker-hub/builds/automated-testing/
+
+85. Docker: The latest Confusion: https://blog.container-solutions.com/docker-latest-confusion
