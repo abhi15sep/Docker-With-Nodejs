@@ -157,4 +157,10 @@ docker ps -l
 
 66. wildcard DNS for everyone: http://xip.io/
 
-67. 
+67. Node.js debugging in VS Code: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+
+68. Debugging Typescript in docker: https://github.com/Microsoft/vscode-recipes/tree/master/Docker-TypeScript
+
+69. ts-node readme: https://github.com/TypeStrong/ts-node
+
+70. 
