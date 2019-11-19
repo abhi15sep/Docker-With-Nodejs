@@ -194,3 +194,5 @@ docker ps -l
 84. Automated repository tests: https://docs.docker.com/docker-hub/builds/automated-testing/
 
 85. Docker: The latest Confusion: https://blog.container-solutions.com/docker-latest-confusion
+
+86. Use docker-compose run OR --exit-code-from for proper exit code.
