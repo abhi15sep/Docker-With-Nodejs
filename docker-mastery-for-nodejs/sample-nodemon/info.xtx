@@ -1,0 +1,3 @@
+docker-compose run express npm install nodemon --save-dev
+docker-compose build
+docker-compose up

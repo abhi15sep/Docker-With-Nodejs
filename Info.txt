@@ -133,3 +133,28 @@ docker ps -l
 55. Run command in container:
     docker-compose run : start a new container and run command shell
     docker-compose exec : run additional command/shell in currently running container.
+
+56. nodemon coonfig files: https://github.com/remy/nodemon#config-files
+
+57. compose-file-v2_depends_on: https://docs.docker.com/compose/compose-file/compose-file-v2/#depends_on
+
+58. Compose file V2 Healthcheck: https://docs.docker.com/compose/compose-file/compose-file-v2/#healthcheck
+
+59. Example Db healthcheck: https://github.com/docker-library/healthcheck
+
+60. Certificates for localhost: https://letsencrypt.org/docs/certificates-for-localhost/
+
+61. Automated nginx proxy for Docker containers using docker-gen: https://github.com/jwilder/nginx-proxy
+
+62. USE DNSMASQ INSTEAD OF /ETC/HOSTS: https://www.stevenrombauts.be/2018/01/use-dnsmasq-instead-of-etc-hosts/
+
+63. Use nginx-proxy and dnsmasq for user-friendly urls during local development: https://medium.com/@sumankpaul/use-nginx-proxy-and-dnsmasq-for-user-friendly-urls-during-local-development-a2ffebd8b05d
+
+64. traefik proxy: https://traefik.io/
+
+65. Docker CORS: https://github.com/docker-solr/docker-solr/issues/182
+                 https://github.com/jwilder/nginx-proxy/issues/804
+
+66. wildcard DNS for everyone: http://xip.io/
+
+67. 
