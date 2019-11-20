@@ -8,3 +8,12 @@ docker-compose up
 docker run -it ultimatenode:prod bash
 docker-compose up -d 
 docker-compose exec result ./tests/tests.sh
+
+docker build --build-arg=MICROSCANNER_TOKEN=$MICROSCANNER -t ultimatenode:test --target test .
+
+To Enable buildkit:
+DOCKER_BUILDKIT=1 docker build --build-arg=MICROSCANNER_TOKEN=$MICROSCANNER -t ultimatenode:test --target test .
+
+DOCKER_BUILDKIT=1 docker build --build-arg=MICROSCANNER_TOKEN=$MICROSCANNER -t ultimatenode:prod --target prod .
+
+docker run ultimatenode:prod
