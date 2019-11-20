@@ -1,0 +1,10 @@
+docker build -t ultimatenode:dev --target dev .
+docker build -t ultimatenode:test --target test .
+docker build -t ultimatenode:prod --target prod .
+docker image ls
+docker run --init ultimatenode:test
+docker run --init ultimatenode:prod
+docker-compose up
+docker run -it ultimatenode:prod bash
+docker-compose up -d 
+docker-compose exec result ./tests/tests.sh

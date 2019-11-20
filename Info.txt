@@ -194,3 +194,9 @@ docker ps -l
 84. Automated repository tests: https://docs.docker.com/docker-hub/builds/automated-testing/
 
 85. Docker: The latest Confusion: https://blog.container-solutions.com/docker-latest-confusion
+
+86. Docker Healthcheck: https://docs.docker.com/engine/reference/builder/#healthcheck
+
+87. Effective Docker Healthchecks For Node.js: https://medium.com/@patrickleet/effective-docker-healthchecks-for-node-js-b11577c3e595
+
+88. 
