@@ -195,4 +195,19 @@ docker ps -l
 
 85. Docker: The latest Confusion: https://blog.container-solutions.com/docker-latest-confusion
 
+<<<<<<< HEAD
 86. Use docker-compose run OR --exit-code-from for proper exit code.
+=======
+86. Docker Healthcheck: https://docs.docker.com/engine/reference/builder/#healthcheck
+
+87. Effective Docker Healthchecks For Node.js: https://medium.com/@patrickleet/effective-docker-healthchecks-for-node-js-b11577c3e595
+
+88. Aqua MicroScanner: https://github.com/aquasecurity/microscanner
+
+89. tini, the tini init : https://github.com/krallin/tini
+
+90. Only one host for production environment. What to use: docker-compose or single node swarm?
+    https://github.com/BretFisher/ama/issues/8
+
+91. 
+>>>>>>> 576131a4c8702cfcb8642d16f578d789b990d011
