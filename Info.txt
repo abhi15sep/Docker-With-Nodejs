@@ -202,3 +202,8 @@ docker ps -l
 88. Aqua MicroScanner: https://github.com/aquasecurity/microscanner
 
 89. tini, the tini init : https://github.com/krallin/tini
+
+90. Only one host for production environment. What to use: docker-compose or single node swarm?
+    https://github.com/BretFisher/ama/issues/8
+
+91. 
