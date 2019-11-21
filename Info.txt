@@ -225,4 +225,9 @@ docker ps -l
 
 98. Sample Docker Swarm cluster stack: https://github.com/BretFisher/dogvscat
 
-99. 
+99. Check Arch of image: docker image inspect arm64v8/node:10-alpine | grep Arch
+
+100. Taking Docker to Production: What You Need to Know and Decide: https://www.youtube.com/watch?v=6jT83lT6TU8
+
+101. Building Your Swarm Tech Stack for the Docker Container Platform:  https://www.youtube.com/watch?v=kjbKAVoeaSU
+
