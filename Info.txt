@@ -209,5 +209,20 @@ docker ps -l
 90. Only one host for production environment. What to use: docker-compose or single node swarm?
     https://github.com/BretFisher/ama/issues/8
 
-91. 
->>>>>>> 576131a4c8702cfcb8642d16f578d789b990d011
+91. 5 Performance Tips for Node.js Applications: https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/
+
+92. Sample Docker Swarm cluster stack of tools : https://github.com/BretFisher/dogvscat
+
+93. Graceful shutdown with Node.js and Kubernetes: https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/
+
+94. Expresssjs Health Checks and Graceful Shutdown: https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html
+
+95. Node's `server.close` the way you expected it to work.: https://github.com/hunterloftis/stoppable
+
+96. Container for testing app failures in orchestrators. It aims to misbehave.: https://github.com/BretFisher/browncoat
+
+97. Adapter to enable broadcasting of events to multiple separate socket.io server nodes.: https://github.com/socketio/socket.io-redis
+
+98. Sample Docker Swarm cluster stack: https://github.com/BretFisher/dogvscat
+
+99. 
